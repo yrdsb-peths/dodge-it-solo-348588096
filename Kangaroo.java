@@ -14,6 +14,9 @@ public class Kangaroo extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        if(Greenfoot.mouseClicked(null))
+        {
+            move(2);
+        }
     }
 }

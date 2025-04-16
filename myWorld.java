@@ -11,5 +11,9 @@ public class MyWorld extends World
         Banana banana = new Banana();
         addObject(banana, 300, 200);
         
+        
+        Kangaroo kangaroo = new Kangaroo();
+        addObject(kangaroo,0,200);
+        
     }
 }
