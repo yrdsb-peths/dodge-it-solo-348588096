@@ -15,5 +15,12 @@ public class MyWorld extends World
         Kangaroo kangaroo = new Kangaroo();
         addObject(kangaroo,0,200);
         
+        Tent tent = new Tent();
+        addObject(tent,500,200);
+        
+        Butterfly butterfly = new Butterfly();
+        addObject(butterfly,0,100);
+        
+        
     }
 }
