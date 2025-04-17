@@ -8,13 +8,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Kangaroo extends Actor
 {
-    /**
-     * Act - do whatever the Monkey wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    boolean atTop = true;
     public void act()
     {
-        boolean atTop = true;
         
         if(Greenfoot.mouseClicked(null))
         {
