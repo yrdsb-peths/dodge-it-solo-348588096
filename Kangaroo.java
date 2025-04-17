@@ -23,7 +23,7 @@ public class Kangaroo extends Actor
         }
         else 
         {
-            setLocation(300,300);
+            setLocation(300,200);
         }
         
         
