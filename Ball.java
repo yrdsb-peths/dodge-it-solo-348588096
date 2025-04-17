@@ -20,6 +20,12 @@ public class Ball extends Actor
         if(getX() >= 599 ){
             resetBall();
         }
+        
+        if(isTouching(Kangaroo.class)){
+            Skull skull = new Skull();
+            getWorld().addObject(skull, 300, 200);
+            getWorld().removeObject(this);
+        }
     }    
     
     public void resetBall()

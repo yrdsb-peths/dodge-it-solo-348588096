@@ -17,6 +17,7 @@ public class Kangaroo extends Actor
             atTop = !atTop;
         }
         
+        
         if(atTop)
         {
             setLocation(300,100);
