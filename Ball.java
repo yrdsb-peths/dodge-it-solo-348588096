@@ -17,21 +17,15 @@ public class Ball extends Actor
     {
         move(4);
         
-        if(getX() >= 600){
+        if(getX() >= 599 ){
             resetBall();
-            
         }
     }    
     
     public void resetBall()
     {
-        int num = Greenfoot.getRandomNumber(2);
-        if (num == 0){
-            setLocation(0,200);
-        } else {
-            setLocation(0,100);
-        }
-
         
+        setLocation(0,200);
+ 
     }
 }
