@@ -14,9 +14,22 @@ public class Kangaroo extends Actor
      */
     public void act()
     {
+        boolean atTop = true;
+        
         if(Greenfoot.mouseClicked(null))
         {
-            move(5);
+            atTop = !atTop;
         }
+        
+        if(atTop)
+        {
+            setLocation(300,100);
+        }
+        else 
+        {
+            setLocation(300,300);
+        }
+        
+        
     }
 }
