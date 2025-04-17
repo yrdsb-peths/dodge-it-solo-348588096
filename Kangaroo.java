@@ -16,7 +16,7 @@ public class Kangaroo extends Actor
     {
         if(Greenfoot.mouseClicked(null))
         {
-            move(2);
+            move(5);
         }
     }
 }
