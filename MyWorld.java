@@ -16,7 +16,7 @@ public class MyWorld extends World
         addObject(kangarooOne,0,200);
         
         Kangaroo kangarooTwo = new Kangaroo();
-        addObject(kangarooTwo,0,200);
+        addObject(kangarooTwo,200,200);
         
         Tent tent = new Tent();
         addObject(tent,500,200);
