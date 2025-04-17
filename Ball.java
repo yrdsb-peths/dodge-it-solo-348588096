@@ -31,7 +31,12 @@ public class Ball extends Actor
     public void resetBall()
     {
         
-        setLocation(0,200);
+        int num = Greenfoot.getRandomNumber(2);
+        if (num == 0){
+            setLocation(0,200);
+        } else {
+            setLocation(0,100);
+        }
  
     }
 }
